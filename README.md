@@ -1,21 +1,34 @@
-## Evaluation CT by #CTDesarrallo #Funiber
+# Nombre del Proyecto
 
-Welcome candidate to our technical skills assessment project.
+Descripción breve del proyecto.
 
-Carefully review the questions provided by your evaluator then try to solve them with this project and show us your best skills
+## Requisitos
 
-I wish you good luck
+- PHP >= 7.3
+- Composer
+- Node.js
+- npm
+- Vue
 
-## About Laravel
+# Dependencias
+El proyecto utiliza varias dependencias, incluyendo:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- axios para las solicitudes HTTP.
+- laravel-mix para la compilación de assets.
+- lodash para utilidades de JavaScript.
+- postcss para transformar CSS.
+- vue-loader para cargar archivos Vue.
+- @fortawesome/fontawesome-svg-core, @fortawesome/free-solid-svg-icons y @fortawesome/vue-fontawesome para los iconos de FontAwesome.
+- vue para la creación de la interfaz de usuario.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Ejecutar las migraciones
+php artisan migrate
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Instalar las dependencias de JavaScript con npm
+npm install
+
+# Iniciar el servidor de desarrollo
+php artisan serve
+
+# Inciar el front
+npm run hot
